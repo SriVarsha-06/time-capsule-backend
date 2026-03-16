@@ -1,5 +1,4 @@
 const neo4j = require('neo4j-driver');
-require('dotenv').config();
 
 const driver = neo4j.driver(
   process.env.NEO4J_URI,
